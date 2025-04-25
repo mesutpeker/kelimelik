@@ -17,6 +17,15 @@ const hintText = document.getElementById('hint-text');
 const questionCounter = document.getElementById('questionCounter');
 const totalQuestions = document.getElementById('totalQuestions');
 
+// Audio Elements
+const backgroundMusic = new Audio('sound/background.mp3');
+const correctSound = new Audio('sound/correct.mp3');
+const wrongSound = new Audio('sound/wrong.mp3');
+
+// Audio Settings
+backgroundMusic.loop = true;
+backgroundMusic.volume = 0.5;
+
 // Game Variables
 let sentences = [];
 let selectedDifficulty = 1;
@@ -25,6 +34,19 @@ let selectedWords = [];
 let score = 0;
 let hintsUsed = 0;
 let currentLevelSentences = [];
+
+// Initialize audio
+function initializeAudio() {
+    // Load all audio files
+    backgroundMusic.load();
+    correctSound.load();
+    wrongSound.load();
+    
+    // Start playing background music
+    backgroundMusic.play().catch(error => {
+        console.error('Error playing background music:', error);
+    });
+}
 
 // Fetch sentences from JSON file
 async function fetchSentences() {
@@ -44,6 +66,7 @@ async function fetchSentences() {
 window.addEventListener('DOMContentLoaded', () => {
     fetchSentences();
     initializeLevelSelection();
+    initializeAudio();
 });
 
 // Level Selection Handlers
@@ -185,6 +208,12 @@ function checkAnswer() {
         resultElement.textContent = 'Doğru! Tebrikler! 🎉';
         resultElement.className = 'result correct';
         
+        // Play correct sound
+        correctSound.currentTime = 0;
+        correctSound.play().catch(error => {
+            console.error('Error playing correct sound:', error);
+        });
+        
         // Calculate score based on hints used
         let pointsEarned = 10;
         if (hintsUsed > 0) {
@@ -204,6 +233,12 @@ function checkAnswer() {
         // Incorrect answer
         resultElement.textContent = 'Yanlış. Tekrar deneyin! 🤔';
         resultElement.className = 'result incorrect';
+        
+        // Play wrong sound
+        wrongSound.currentTime = 0;
+        wrongSound.play().catch(error => {
+            console.error('Error playing wrong sound:', error);
+        });
     }
     
     resultElement.style.display = 'block';
