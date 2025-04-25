@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelimelerden Cümle Oluştur</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Level Selection Screen -->
+    <div id="levelSelection" class="level-selection-container">
+        <h1 class="game-title">Kelimelerden Cümle Oluştur</h1>
+        <div class="character-container">
+            <div class="character">
+                <svg viewBox="0 0 200 200" class="character-svg">
+                    <circle cx="100" cy="70" r="40" fill="#FFD166" />
+                    <circle cx="85" cy="60" r="5" fill="#333" />
+                    <circle cx="115" cy="60" r="5" fill="#333" />
+                    <path d="M90 80 Q100 90 110 80" stroke="#333" stroke-width="3" fill="none" />
+                    <rect x="60" y="110" width="80" height="60" rx="10" fill="#6A3093" />
+                    <rect x="50" y="170" width="30" height="20" rx="5" fill="#FFD166" />
+                    <rect x="120" y="170" width="30" height="20" rx="5" fill="#FFD166" />
+                    <line x1="65" y1="140" x2="135" y2="140" stroke="#FFD166" stroke-width="3" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="level-cards-container">
+            <h2 class="selection-title">Zorluk Seviyesi Seçin</h2>
+            <div class="level-cards">
+                <div class="level-card" data-level="1">
+                    <div class="level-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Kolay</h3>
+                    <p>3 kelimelik cümleler</p>
+                    <div class="level-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="level-card" data-level="2">
+                    <div class="level-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Orta</h3>
+                    <p>4 kelimelik cümleler</p>
+                    <div class="level-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="level-card" data-level="3">
+                    <div class="level-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Zor</h3>
+                    <p>5 kelimelik cümleler</p>
+                    <div class="level-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="gameScreen" style="display: none;">
+        <div class="level-indicator">Seviye: <span id="currentLevel">1</span></div>
+        <div class="score">Puan: <span id="score">0</span></div>
+        <div class="question-counter">Soru: <span id="questionCounter">1</span>/<span id="totalQuestions">0</span></div>
+        
+        <h1 class="game-title">Kelimelerden Cümle Oluştur</h1>
+
+        <div class="container">
+            <div class="question-container">
+                <p>Karışık verilen kelimeleri doğru sırayla yerleştirerek anlamlı bir cümle oluştur:</p>
+                <div id="hint-container" class="hint-container" style="display: none;">
+                    <p><span class="hint-title">İpucu:</span> <span id="hint-text"></span></p>
+                </div>
+            </div>
+
+            <div class="words-container" id="wordsContainer">
+                <!-- Kelimeler JavaScript ile eklenecek -->
+            </div>
+
+            <div class="answer-container" id="answerContainer">
+                <!-- Seçilen kelimeler buraya gelecek -->
+            </div>
+
+            <div class="result" id="result"></div>
+
+            <div class="buttons">
+                <button id="checkButton" disabled><i class="fas fa-check"></i> Kontrol Et</button>
+                <button id="resetButton"><i class="fas fa-redo"></i> Sıfırla</button>
+                <button id="nextButton" disabled><i class="fas fa-arrow-right"></i> Sonraki Soru</button>
+                <button id="hintButton"><i class="fas fa-lightbulb"></i> İpucu</button>
+                <button id="backToMenuButton"><i class="fas fa-home"></i> Ana Menü</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

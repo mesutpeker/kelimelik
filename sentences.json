@@ -1,0 +1,896 @@
+[
+  {
+    "words": ["Ayşe", "okula", "gidiyor"],
+    "correct": "Ayşe okula gidiyor",
+    "level": 1,
+    "hint": "KİM, NEREYE, NE YAPIYOR?"
+  },
+  {
+    "words": ["Köpek", "kemik", "yiyor"],
+    "correct": "Köpek kemik yiyor",
+    "level": 1,
+    "hint": "KİM, NEYİ, NE YAPIYOR?"
+  },
+  {
+    "words": ["Ali", "top", "oynuyor"],
+    "correct": "Ali top oynuyor",
+    "level": 1,
+    "hint": "KİM, NE, OYNUYOR?"
+  },
+  {
+    "words": ["Kuşlar", "ağaçta", "ötüyor"],
+    "correct": "Kuşlar ağaçta ötüyor",
+    "level": 1,
+    "hint": "KİMLER, NEREDE, NE YAPIYOR?"
+  },
+  {
+    "words": ["Annem", "yemek", "yapıyor"],
+    "correct": "Annem yemek yapıyor",
+    "level": 1,
+    "hint": "KİM, NE, YAPIYOR?"
+  },
+  {
+    "words": ["Balıklar", "suda", "yüzüyor"],
+    "correct": "Balıklar suda yüzüyor",
+    "level": 1,
+    "hint": "NELER, NEREDE, NE YAPIYOR?"
+  },
+  {
+    "words": ["Çocuklar", "parkta", "oynuyor"],
+    "correct": "Çocuklar parkta oynuyor",
+    "level": 1,
+    "hint": "KİMLER, NEREDE, NE YAPIYOR?"
+  },
+  {
+    "words": ["Babam", "gazete", "okuyor"],
+    "correct": "Babam gazete okuyor",
+    "level": 1,
+    "hint": "KİM, NE, OKUYOR?"
+  },
+  {
+    "words": ["Kedi", "süt", "içiyor"],
+    "correct": "Kedi süt içiyor",
+    "level": 1,
+    "hint": "KİM, NE, İÇİYOR?"
+  },
+  {
+    "words": ["Güneş", "parlak", "parlıyor"],
+    "correct": "Güneş parlak parlıyor",
+    "level": 1,
+    "hint": "NE, NASIL, PARLIYOR?"
+  },
+  {
+    "words": ["Öğretmen", "tahtaya", "yazıyor"],
+    "correct": "Öğretmen tahtaya yazıyor",
+    "level": 1,
+    "hint": "KİM, NEREYE, YAZIYOR?"
+  },
+  {
+    "words": ["Arı", "çiçeğe", "konuyor"],
+    "correct": "Arı çiçeğe konuyor",
+    "level": 1,
+    "hint": "KİM, NEREYE, KONUYOR?"
+  },
+  {
+    "words": ["Murat", "kitap", "okuyor"],
+    "correct": "Murat kitap okuyor",
+    "level": 1,
+    "hint": "KİM, NE, OKUYOR?"
+  },
+  {
+    "words": ["Tren", "istasyona", "geliyor"],
+    "correct": "Tren istasyona geliyor",
+    "level": 1,
+    "hint": "NE, NEREYE, GELİYOR?"
+  },
+  {
+    "words": ["Çocuk", "bisiklete", "biniyor"],
+    "correct": "Çocuk bisiklete biniyor",
+    "level": 1,
+    "hint": "KİM, NEYE, BİNİYOR?"
+  },
+  {
+    "words": ["Ağaçlar", "rüzgârda", "sallanıyor"],
+    "correct": "Ağaçlar rüzgârda sallanıyor",
+    "level": 1,
+    "hint": "NELER, NEREDE, SALLANIYOR?"
+  },
+  {
+    "words": ["Yağmur", "yavaşça", "yağıyor"],
+    "correct": "Yağmur yavaşça yağıyor",
+    "level": 1,
+    "hint": "NE, NASIL, YAĞIYOR?"
+  },
+  {
+    "words": ["Kuş", "ağaca", "kondu"],
+    "correct": "Kuş ağaca kondu",
+    "level": 1,
+    "hint": "KİM, NEREYE, KONDU?"
+  },
+  {
+    "words": ["Bebek", "süt", "içti"],
+    "correct": "Bebek süt içti",
+    "level": 1,
+    "hint": "KİM, NE, İÇTİ?"
+  },
+  {
+    "words": ["Dedem", "bahçeyi", "suluyor"],
+    "correct": "Dedem bahçeyi suluyor",
+    "level": 1,
+    "hint": "KİM, NEREYİ, SULUYOR?"
+  },
+  {
+    "words": ["Sınıfta", "öğrenciler", "oturuyor"],
+    "correct": "Sınıfta öğrenciler oturuyor",
+    "level": 1,
+    "hint": "NEREDE, KİMLER, OTURUYOR?"
+  },
+  {
+    "words": ["Bahçede", "çiçekler", "açıyor"],
+    "correct": "Bahçede çiçekler açıyor",
+    "level": 1,
+    "hint": "NEREDE, NELER, AÇIYOR?"
+  },
+  {
+    "words": ["Kardeşim", "odasında", "uyuyor"],
+    "correct": "Kardeşim odasında uyuyor",
+    "level": 1,
+    "hint": "KİM, NEREDE, UYUYOR?"
+  },
+  {
+    "words": ["Öğrenciler", "sınava", "girdi"],
+    "correct": "Öğrenciler sınava girdi",
+    "level": 1,
+    "hint": "KİMLER, NEYE, GİRDİ?"
+  },
+  {
+    "words": ["Fil", "su", "içiyor"],
+    "correct": "Fil su içiyor",
+    "level": 1,
+    "hint": "KİM, NE, İÇİYOR?"
+  },
+  {
+    "words": ["Tavşan", "havuç", "yiyor"],
+    "correct": "Tavşan havuç yiyor",
+    "level": 1,
+    "hint": "KİM, NE, YİYOR?"
+  },
+  {
+    "words": ["Araba", "yolda", "gidiyor"],
+    "correct": "Araba yolda gidiyor",
+    "level": 1,
+    "hint": "NE, NEREDE, GİDİYOR?"
+  },
+  {
+    "words": ["Maymun", "muz", "yiyor"],
+    "correct": "Maymun muz yiyor",
+    "level": 1,
+    "hint": "KİM, NE, YİYOR?"
+  },
+  {
+    "words": ["Ayı", "bal", "seviyor"],
+    "correct": "Ayı bal seviyor",
+    "level": 1,
+    "hint": "KİM, NE, SEVİYOR?"
+  },
+  {
+    "words": ["Çocuk", "müzik", "dinliyor"],
+    "correct": "Çocuk müzik dinliyor",
+    "level": 1,
+    "hint": "KİM, NE, DİNLİYOR?"
+  },
+  {
+    "words": ["Öğrenci", "ders", "çalışıyor"],
+    "correct": "Öğrenci ders çalışıyor",
+    "level": 1,
+    "hint": "KİM, NE, ÇALIŞIYOR?"
+  },
+  {
+    "words": ["Bülbül", "güzel", "ötüyor"],
+    "correct": "Bülbül güzel ötüyor",
+    "level": 1,
+    "hint": "KİM, NASIL, ÖTÜYOR?"
+  },
+  {
+    "words": ["Biz", "parkta", "koştuk"],
+    "correct": "Biz parkta koştuk",
+    "level": 1,
+    "hint": "KİM, NEREDE, KOŞTUK?"
+  },
+  {
+    "words": ["Şemsiye", "yağmurdan", "koruyor"],
+    "correct": "Şemsiye yağmurdan koruyor",
+    "level": 1,
+    "hint": "NE, NEDEN, KORUYOR?"
+  },
+  {
+    "words": ["Deniz", "mavi", "görünüyor"],
+    "correct": "Deniz mavi görünüyor",
+    "level": 1,
+    "hint": "NE, NASIL, GÖRÜNÜYOR?"
+  },
+  {
+    "words": ["Kuzu", "çayırda", "otluyor"],
+    "correct": "Kuzu çayırda otluyor",
+    "level": 1,
+    "hint": "KİM, NEREDE, OTLUYOR?"
+  },
+  {
+    "words": ["Kelebek", "çiçekte", "duruyor"],
+    "correct": "Kelebek çiçekte duruyor",
+    "level": 1,
+    "hint": "KİM, NEREDE, DURUYOR?"
+  },
+  {
+    "words": ["Sincap", "ceviz", "topluyor"],
+    "correct": "Sincap ceviz topluyor",
+    "level": 1,
+    "hint": "KİM, NE, TOPLUYOR?"
+  },
+  {
+    "words": ["Aslan", "yüksek", "kükriyor"],
+    "correct": "Aslan yüksek kükriyor",
+    "level": 1,
+    "hint": "KİM, NASIL, KÜKRIYOR?"
+  },
+  {
+    "words": ["Çamaşırlar", "rüzgârda", "kuruyor"],
+    "correct": "Çamaşırlar rüzgârda kuruyor",
+    "level": 1,
+    "hint": "NELER, NEREDE, KURUYOR?"
+  },
+  {
+    "words": ["Karga", "ağaçta", "bağırıyor"],
+    "correct": "Karga ağaçta bağırıyor",
+    "level": 1,
+    "hint": "KİM, NEREDE, BAĞIRIYOR?"
+  },
+  {
+    "words": ["Otobüs", "yolda", "ilerliyor"],
+    "correct": "Otobüs yolda ilerliyor",
+    "level": 1,
+    "hint": "NE, NEREDE, İLERLİYOR?"
+  },
+  {
+    "words": ["Saat", "zamanı", "gösteriyor"],
+    "correct": "Saat zamanı gösteriyor",
+    "level": 1,
+    "hint": "NE, NEYİ, GÖSTERİYOR?"
+  },
+  {
+    "words": ["Uçak", "gökyüzünde", "uçuyor"],
+    "correct": "Uçak gökyüzünde uçuyor",
+    "level": 1,
+    "hint": "NE, NEREDE, UÇUYOR?"
+  },
+  {
+    "words": ["Dere", "hızlı", "akıyor"],
+    "correct": "Dere hızlı akıyor",
+    "level": 1,
+    "hint": "NE, NASIL, AKIYOR?"
+  },
+  {
+    "words": ["Zil", "yüksek", "çalıyor"],
+    "correct": "Zil yüksek çalıyor",
+    "level": 1,
+    "hint": "NE, NASIL, ÇALIYOR?"
+  },
+  {
+    "words": ["Köpek", "kemiği", "kemiriyor"],
+    "correct": "Köpek kemiği kemiriyor",
+    "level": 1,
+    "hint": "KİM, NEYİ, KEMİRİYOR?"
+  },
+  {
+    "words": ["Çiftçi", "tarlayı", "sürüyor"],
+    "correct": "Çiftçi tarlayı sürüyor",
+    "level": 1,
+    "hint": "KİM, NEYİ, SÜRÜYOR?"
+  },
+  {
+    "words": ["Rüzgâr", "kapıyı", "çarpıyor"],
+    "correct": "Rüzgâr kapıyı çarpıyor",
+    "level": 1,
+    "hint": "NE, NEYİ, ÇARPIYOR?"
+  },
+  {
+    "words": ["Aşçı", "yemek", "pişiriyor"],
+    "correct": "Aşçı yemek pişiriyor",
+    "level": 1,
+    "hint": "KİM, NE, PİŞİRİYOR?"
+  },
+  {
+    "words": ["Dalgalar", "kıyıya", "vuruyor"],
+    "correct": "Dalgalar kıyıya vuruyor",
+    "level": 1,
+    "hint": "NELER, NEREYE, VURUYOR?"
+  },
+  {
+    "words": ["Kardeşim", "bahçede", "top", "oynuyor"],
+    "correct": "Kardeşim bahçede top oynuyor",
+    "level": 2,
+    "hint": "KİM, NEREDE, NE, OYNUYOR?"
+  },
+  {
+    "words": ["Babam", "işten", "eve", "geldi"],
+    "correct": "Babam işten eve geldi",
+    "level": 2,
+    "hint": "KİM, NEREDEN, NEREYE, GELDİ?"
+  },
+  {
+    "words": ["Öğretmenimiz", "bize", "kitap", "verdi"],
+    "correct": "Öğretmenimiz bize kitap verdi",
+    "level": 2,
+    "hint": "KİM, KİME, NE, VERDİ?"
+  },
+  {
+    "words": ["Annem", "pazardan", "meyve", "aldı"],
+    "correct": "Annem pazardan meyve aldı",
+    "level": 2,
+    "hint": "KİM, NEREDEN, NE, ALDI?"
+  },
+  {
+    "words": ["Kuşlar", "ağaca", "yuva", "yaptı"],
+    "correct": "Kuşlar ağaca yuva yaptı",
+    "level": 2,
+    "hint": "KİMLER, NEREYE, NE, YAPTI?"
+  },
+  {
+    "words": ["Kız", "güzel", "şarkı", "söylüyor"],
+    "correct": "Kız güzel şarkı söylüyor",
+    "level": 2,
+    "hint": "KİM, NASIL, NE, SÖYLÜYOR?"
+  },
+  {
+    "words": ["Ali", "okulda", "arkadaş", "buldu"],
+    "correct": "Ali okulda arkadaş buldu",
+    "level": 2,
+    "hint": "KİM, NEREDE, NE, BULDU?"
+  },
+  {
+    "words": ["Adam", "parkta", "gazete", "okuyor"],
+    "correct": "Adam parkta gazete okuyor",
+    "level": 2,
+    "hint": "KİM, NEREDE, NE, OKUYOR?"
+  },
+  {
+    "words": ["Çocuklar", "bahçede", "saklambaç", "oynuyor"],
+    "correct": "Çocuklar bahçede saklambaç oynuyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NE, OYNUYOR?"
+  },
+  {
+    "words": ["Kedimiz", "koltuğun", "üstünde", "uyuyor"],
+    "correct": "Kedimiz koltuğun üstünde uyuyor",
+    "level": 2,
+    "hint": "KİM, NERENİN, NERESINDE, UYUYOR?"
+  },
+  {
+    "words": ["Öğrenciler", "sınıfta", "test", "çözüyor"],
+    "correct": "Öğrenciler sınıfta test çözüyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NE, ÇÖZÜYOR?"
+  },
+  {
+    "words": ["Kardeşim", "her", "gün", "koşuyor"],
+    "correct": "Kardeşim her gün koşuyor",
+    "level": 2,
+    "hint": "KİM, HANGİ, ZAMAN, KOŞUYOR?"
+  },
+  {
+    "words": ["Bahçıvan", "çiçekleri", "suyla", "besliyor"],
+    "correct": "Bahçıvan çiçekleri suyla besliyor",
+    "level": 2,
+    "hint": "KİM, NELERİ, NEYLE, BESLİYOR?"
+  },
+  {
+    "words": ["Ayşe", "masaya", "kitabı", "koydu"],
+    "correct": "Ayşe masaya kitabı koydu",
+    "level": 2,
+    "hint": "KİM, NEREYE, NEYİ, KOYDU?"
+  },
+  {
+    "words": ["Kuşlar", "gökyüzünde", "özgürce", "uçuyor"],
+    "correct": "Kuşlar gökyüzünde özgürce uçuyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NASIL, UÇUYOR?"
+  },
+  {
+    "words": ["Köpek", "bahçede", "topu", "yakaladı"],
+    "correct": "Köpek bahçede topu yakaladı",
+    "level": 2,
+    "hint": "KİM, NEREDE, NEYİ, YAKALADI?"
+  },
+  {
+    "words": ["Çocuk", "yüksek", "sesle", "gülüyor"],
+    "correct": "Çocuk yüksek sesle gülüyor",
+    "level": 2,
+    "hint": "KİM, NASIL, NEYLE, GÜLÜYOR?"
+  },
+  {
+    "words": ["Biz", "dün", "sinemaya", "gittik"],
+    "correct": "Biz dün sinemaya gittik",
+    "level": 2,
+    "hint": "KİM, NE ZAMAN, NEREYE, GİTTİK?"
+  },
+  {
+    "words": ["Annem", "keki", "fırına", "koydu"],
+    "correct": "Annem keki fırına koydu",
+    "level": 2,
+    "hint": "KİM, NEYİ, NEREYE, KOYDU?"
+  },
+  {
+    "words": ["Balıkçı", "denizde", "balık", "tutuyor"],
+    "correct": "Balıkçı denizde balık tutuyor",
+    "level": 2,
+    "hint": "KİM, NEREDE, NE, TUTUYOR?"
+  },
+  {
+    "words": ["Hasan", "okuldan", "erken", "çıktı"],
+    "correct": "Hasan okuldan erken çıktı",
+    "level": 2,
+    "hint": "KİM, NEREDEN, NASIL, ÇIKTI?"
+  },
+  {
+    "words": ["Çiftçiler", "tarlada", "buğday", "ekiyor"],
+    "correct": "Çiftçiler tarlada buğday ekiyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NE, EKİYOR?"
+  },
+  {
+    "words": ["Kedi", "sütü", "hızlıca", "içti"],
+    "correct": "Kedi sütü hızlıca içti",
+    "level": 2,
+    "hint": "KİM, NEYİ, NASIL, İÇTİ?"
+  },
+  {
+    "words": ["Futbolcu", "topu", "güzel", "vurdu"],
+    "correct": "Futbolcu topu güzel vurdu",
+    "level": 2,
+    "hint": "KİM, NEYİ, NASIL, VURDU?"
+  },
+  {
+    "words": ["Postacı", "mektubu", "eve", "getirdi"],
+    "correct": "Postacı mektubu eve getirdi",
+    "level": 2,
+    "hint": "KİM, NEYİ, NEREYE, GETİRDİ?"
+  },
+  {
+    "words": ["Rüzgâr", "yaprakları", "yere", "düşürdü"],
+    "correct": "Rüzgâr yaprakları yere düşürdü",
+    "level": 2,
+    "hint": "NE, NELERİ, NEREYE, DÜŞÜRDÜ?"
+  },
+  {
+    "words": ["Telefon", "masanın", "üzerinde", "duruyor"],
+    "correct": "Telefon masanın üzerinde duruyor",
+    "level": 2,
+    "hint": "NE, NERENİN, NERESINDE, DURUYOR?"
+  },
+  {
+    "words": ["Aşçı", "yemeği", "güzelce", "pişirdi"],
+    "correct": "Aşçı yemeği güzelce pişirdi",
+    "level": 2,
+    "hint": "KİM, NEYİ, NASIL, PİŞİRDİ?"
+  },
+  {
+    "words": ["Nehir", "denize", "doğru", "akıyor"],
+    "correct": "Nehir denize doğru akıyor",
+    "level": 2,
+    "hint": "NE, NEREYE, NASIL, AKIYOR?"
+  },
+  {
+    "words": ["Saat", "duvarın", "üstünde", "asılı"],
+    "correct": "Saat duvarın üstünde asılı",
+    "level": 2,
+    "hint": "NE, NERENİN, NERESINDE, ASILI?"
+  },
+  {
+    "words": ["Ben", "dün", "çok", "yürüdüm"],
+    "correct": "Ben dün çok yürüdüm",
+    "level": 2,
+    "hint": "KİM, NE ZAMAN, NE KADAR, YÜRÜDÜM?"
+  },
+  {
+    "words": ["Kartallar", "gökyüzünde", "daire", "çiziyor"],
+    "correct": "Kartallar gökyüzünde daire çiziyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NE, ÇİZİYOR?"
+  },
+  {
+    "words": ["Çocuk", "heyecanla", "oyunu", "bekliyor"],
+    "correct": "Çocuk heyecanla oyunu bekliyor",
+    "level": 2,
+    "hint": "KİM, NASIL, NEYİ, BEKLİYOR?"
+  },
+  {
+    "words": ["Keçi", "dağlarda", "özgürce", "dolaşıyor"],
+    "correct": "Keçi dağlarda özgürce dolaşıyor",
+    "level": 2,
+    "hint": "KİM, NEREDE, NASIL, DOLAŞIYOR?"
+  },
+  {
+    "words": ["Terzi", "elbiseyi", "dikkatle", "dikiyor"],
+    "correct": "Terzi elbiseyi dikkatle dikiyor",
+    "level": 2,
+    "hint": "KİM, NEYİ, NASIL, DİKİYOR?"
+  },
+  {
+    "words": ["Tavuklar", "bahçede", "yem", "yiyor"],
+    "correct": "Tavuklar bahçede yem yiyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NE, YİYOR?"
+  },
+  {
+    "words": ["Dalgalar", "kayalara", "sertçe", "çarpıyor"],
+    "correct": "Dalgalar kayalara sertçe çarpıyor",
+    "level": 2,
+    "hint": "NELER, NERELERE, NASIL, ÇARPIYOR?"
+  },
+  {
+    "words": ["Arılar", "bahçede", "çiçek", "topluyor"],
+    "correct": "Arılar bahçede çiçek topluyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NE, TOPLUYOR?"
+  },
+  {
+    "words": ["Masal", "çocuğu", "uykuya", "daldırdı"],
+    "correct": "Masal çocuğu uykuya daldırdı",
+    "level": 2,
+    "hint": "NE, KİMİ, NEREYE, DALDIRDI?"
+  },
+  {
+    "words": ["Teyzem", "bana", "hediye", "getirdi"],
+    "correct": "Teyzem bana hediye getirdi",
+    "level": 2,
+    "hint": "KİM, KİME, NE, GETİRDİ?"
+  },
+  {
+    "words": ["Ahmet", "kitabı", "yavaşça", "okuyor"],
+    "correct": "Ahmet kitabı yavaşça okuyor",
+    "level": 2,
+    "hint": "KİM, NEYİ, NASIL, OKUYOR?"
+  },
+  {
+    "words": ["Selin", "derste", "parmak", "kaldırdı"],
+    "correct": "Selin derste parmak kaldırdı",
+    "level": 2,
+    "hint": "KİM, NEREDE, NE, KALDIRDI?"
+  },
+  {
+    "words": ["Deniz", "kumlarda", "kale", "yapıyor"],
+    "correct": "Deniz kumlarda kale yapıyor",
+    "level": 2,
+    "hint": "KİM, NEREDE, NE, YAPIYOR?"
+  },
+  {
+    "words": ["Balıklar", "akvaryumda", "mutlu", "yüzüyor"],
+    "correct": "Balıklar akvaryumda mutlu yüzüyor",
+    "level": 2,
+    "hint": "KİMLER, NEREDE, NASIL, YÜZÜYOR?"
+  },
+  {
+    "words": ["Güneş", "sabah", "erken", "doğuyor"],
+    "correct": "Güneş sabah erken doğuyor",
+    "level": 2,
+    "hint": "NE, NE ZAMAN, NASIL, DOĞUYOR?"
+  },
+  {
+    "words": ["Ahmet", "her", "gün", "okula", "gidiyor"],
+    "correct": "Ahmet her gün okula gidiyor",
+    "level": 3,
+    "hint": "KİM, HANGİ, ZAMAN, NEREYE, GİDİYOR?"
+  },
+  {
+    "words": ["Arkadaşımla", "birlikte", "sinemaya", "gittik", "dün"],
+    "correct": "Arkadaşımla birlikte sinemaya gittik dün",
+    "level": 3,
+    "hint": "KİMLE, NASIL, NEREYE, GİTTİK, NE ZAMAN?"
+  },
+  {
+    "words": ["Çocuk", "bahçede", "güzel", "çiçek", "topluyor"],
+    "correct": "Çocuk bahçede güzel çiçek topluyor",
+    "level": 3,
+    "hint": "KİM, NEREDE, NASIL, NE, TOPLUYOR?"
+  },
+  {
+    "words": ["Ağaçtan", "olgun", "elmalar", "yere", "düşüyor"],
+    "correct": "Ağaçtan olgun elmalar yere düşüyor",
+    "level": 3,
+    "hint": "NEREDEN, NASIL, NELER, NEREYE, DÜŞÜYOR?"
+  },
+  {
+    "words": ["Dedem", "bahçedeki", "sebzeleri", "suyla", "besliyor"],
+    "correct": "Dedem bahçedeki sebzeleri suyla besliyor",
+    "level": 3,
+    "hint": "KİM, NEREDEKİ, NELERİ, NEYLE, BESLİYOR?"
+  },
+  {
+    "words": ["Annem", "dün", "akşam", "güzel", "yaptı"],
+    "correct": "Annem dün akşam güzel yaptı",
+    "level": 3,
+    "hint": "KİM, NE ZAMAN, NE ZAMAN, NASIL, YAPTI?"
+  },
+  {
+    "words": ["Öğretmen", "bize", "bugün", "hikaye", "anlattı"],
+    "correct": "Öğretmen bize bugün hikaye anlattı",
+    "level": 3,
+    "hint": "KİM, KİME, NE ZAMAN, NE, ANLATTI?"
+  },
+  {
+    "words": ["Kardeşim", "odasında", "sessizce", "ders", "çalışıyor"],
+    "correct": "Kardeşim odasında sessizce ders çalışıyor",
+    "level": 3,
+    "hint": "KİM, NEREDE, NASIL, NE, ÇALIŞIYOR?"
+  },
+  {
+    "words": ["Fare", "peyniri", "hızlıca", "alıp", "kaçtı"],
+    "correct": "Fare peyniri hızlıca alıp kaçtı",
+    "level": 3,
+    "hint": "KİM, NEYİ, NASIL, NE YAPIP, KAÇTI?"
+  },
+  {
+    "words": ["Annem", "piknik", "için", "lezzetli", "hazırladı"],
+    "correct": "Annem piknik için lezzetli hazırladı",
+    "level": 3,
+    "hint": "KİM, NE, İÇİN, NASIL, HAZIRLADI?"
+  },
+  {
+    "words": ["Biz", "tatilde", "denizde", "çok", "yüzdük"],
+    "correct": "Biz tatilde denizde çok yüzdük",
+    "level": 3,
+    "hint": "KİM, NEREDE, NEREDE, NE KADAR, YÜZDÜK?"
+  },
+  {
+    "words": ["Ahmet", "dedesini", "köyde", "ziyaret", "etti"],
+    "correct": "Ahmet dedesini köyde ziyaret etti",
+    "level": 3,
+    "hint": "KİM, KİMİ, NEREDE, NE, ETTİ?"
+  },
+  {
+    "words": ["Öğretmenimiz", "bize", "faydalı", "bilgiler", "öğretti"],
+    "correct": "Öğretmenimiz bize faydalı bilgiler öğretti",
+    "level": 3,
+    "hint": "KİM, KİME, NASIL, NE, ÖĞRETTİ?"
+  },
+  {
+    "words": ["Babam", "bize", "akşam", "masal", "okudu"],
+    "correct": "Babam bize akşam masal okudu",
+    "level": 3,
+    "hint": "KİM, KİME, NE ZAMAN, NE, OKUDU?"
+  },
+  {
+    "words": ["Kuş", "yuvada", "yavrusunu", "dikkatle", "besliyor"],
+    "correct": "Kuş yuvada yavrusunu dikkatle besliyor",
+    "level": 3,
+    "hint": "KİM, NEREDE, KİMİ, NASIL, BESLİYOR?"
+  },
+  {
+    "words": ["Ali", "topu", "arkadaşına", "hızlıca", "attı"],
+    "correct": "Ali topu arkadaşına hızlıca attı",
+    "level": 3,
+    "hint": "KİM, NEYİ, KİME, NASIL, ATTI?"
+  },
+  {
+    "words": ["Dün", "Ayşe", "ile", "parka", "gittik"],
+    "correct": "Dün Ayşe ile parka gittik",
+    "level": 3,
+    "hint": "NE ZAMAN, KİM, İLE, NEREYE, GİTTİK?"
+  },
+  {
+    "words": ["Tavşan", "havucu", "sessizce", "alıp", "kaçtı"],
+    "correct": "Tavşan havucu sessizce alıp kaçtı",
+    "level": 3,
+    "hint": "KİM, NEYİ, NASIL, NE YAPIP, KAÇTI?"
+  },
+  {
+    "words": ["Yağmurda", "evde", "sıcak", "çorba", "içtik"],
+    "correct": "Yağmurda evde sıcak çorba içtik",
+    "level": 3,
+    "hint": "NEREDE, NEREDE, NASIL, NE, İÇTİK?"
+  },
+  {
+    "words": ["Kız", "parkta", "arkadaşlarıyla", "oyun", "oynuyor"],
+    "correct": "Kız parkta arkadaşlarıyla oyun oynuyor",
+    "level": 3,
+    "hint": "KİM, NEREDE, KİMLERLE, NE, OYNUYOR?"
+  },
+  {
+    "words": ["Öğrenciler", "öğretmene", "güzel", "hediye", "aldılar"],
+    "correct": "Öğrenciler öğretmene güzel hediye aldılar",
+    "level": 3,
+    "hint": "KİMLER, KİME, NASIL, NE, ALDILAR?"
+  },
+  {
+    "words": ["Kuşlar", "beni", "her", "sabah", "uyandırıyor"],
+    "correct": "Kuşlar beni her sabah uyandırıyor",
+    "level": 3,
+    "hint": "KİMLER, KİMİ, HANGİ, ZAMAN, UYANDIRIYOR?"
+  },
+  {
+    "words": ["Kışın", "evde", "sıcak", "çay", "içeriz"],
+    "correct": "Kışın evde sıcak çay içeriz",
+    "level": 3,
+    "hint": "NE ZAMAN, NEREDE, NASIL, NE, İÇERİZ?"
+  },
+  {
+    "words": ["Çocuklar", "bahçede", "neşeyle", "oyun", "oynuyor"],
+    "correct": "Çocuklar bahçede neşeyle oyun oynuyor",
+    "level": 3,
+    "hint": "KİMLER, NEREDE, NASIL, NE, OYNUYOR?"
+  },
+  {
+    "words": ["Her", "sabah", "erkenden", "okula", "gidiyorum"],
+    "correct": "Her sabah erkenden okula gidiyorum",
+    "level": 3,
+    "hint": "HANGİ, ZAMAN, NASIL, NEREYE, GİDİYORUM?"
+  },
+  {
+    "words": ["Çocuklar", "süt", "içerek", "güne", "başladı"],
+    "correct": "Çocuklar süt içerek güne başladı",
+    "level": 3,
+    "hint": "KİMLER, NE, NE YAPARAK, NEYE, BAŞLADI?"
+  },
+  {
+    "words": ["Dün", "ailemle", "birlikte", "film", "izledim"],
+    "correct": "Dün ailemle birlikte film izledim",
+    "level": 3,
+    "hint": "NE ZAMAN, KİMLE, NASIL, NE, İZLEDİM?"
+  },
+  {
+    "words": ["Çocuklar", "yağmurda", "ıslanarak", "eve", "koştu"],
+    "correct": "Çocuklar yağmurda ıslanarak eve koştu",
+    "level": 3,
+    "hint": "KİMLER, NEREDE, NASIL, NEREYE, KOŞTU?"
+  },
+  {
+    "words": ["Annem", "çiçekleri", "vazoya", "özenle", "yerleştirdi"],
+    "correct": "Annem çiçekleri vazoya özenle yerleştirdi",
+    "level": 3,
+    "hint": "KİM, NELERİ, NEREYE, NASIL, YERLEŞTİRDİ?"
+  },
+  {
+    "words": ["Öğrenciler", "kütüphaneyi", "dikkatle", "sessizce", "gezdiler"],
+    "correct": "Öğrenciler kütüphaneyi dikkatle sessizce gezdiler",
+    "level": 3,
+    "hint": "KİMLER, NEYİ, NASIL, NASIL, GEZDİLER?"
+  },
+  {
+    "words": ["Çiftçi", "tarlasını", "sabah", "erkenden", "suladi"],
+    "correct": "Çiftçi tarlasını sabah erkenden suladi",
+    "level": 3,
+    "hint": "KİM, NEYİ, NE ZAMAN, NASIL, SULADI?"
+  },
+  {
+    "words": ["Kar", "yavaşça", "beyaz", "örtü", "oluşturdu"],
+    "correct": "Kar yavaşça beyaz örtü oluşturdu",
+    "level": 3,
+    "hint": "NE, NASIL, NASIL, NE, OLUŞTURDU?"
+  },
+  {
+    "words": ["Aşçı", "yemeği", "özenle", "taze", "hazırladı"],
+    "correct": "Aşçı yemeği özenle taze hazırladı",
+    "level": 3,
+    "hint": "KİM, NEYİ, NASIL, NASIL, HAZIRLADI?"
+  },
+  {
+    "words": ["Kitap", "masanın", "üzerinde", "açık", "duruyor"],
+    "correct": "Kitap masanın üzerinde açık duruyor",
+    "level": 3,
+    "hint": "NE, NERENİN, NERESINDE, NASIL, DURUYOR?"
+  },
+  {
+    "words": ["Aslan", "ormanda", "yüksek", "sesle", "kükredi"],
+    "correct": "Aslan ormanda yüksek sesle kükredi",
+    "level": 3,
+    "hint": "KİM, NEREDE, NASIL, NEYLE, KÜKREDİ?"
+  },
+  {
+    "words": ["Balıkçı", "oltasıyla", "büyük", "balık", "yakaladı"],
+    "correct": "Balıkçı oltasıyla büyük balık yakaladı",
+    "level": 3,
+    "hint": "KİM, NEYİYLE, NASIL, NE, YAKALADI?"
+  },
+  {
+    "words": ["Anne", "bebeğini", "usulca", "beşiğe", "yatırdı"],
+    "correct": "Anne bebeğini usulca beşiğe yatırdı",
+    "level": 3,
+    "hint": "KİM, KİMİ, NASIL, NEREYE, YATIRDI?"
+  },
+  {
+    "words": ["Rüzgâr", "ağaçların", "yapraklarını", "yere", "düşürdü"],
+    "correct": "Rüzgâr ağaçların yapraklarını yere düşürdü",
+    "level": 3,
+    "hint": "NE, NELERİN, NELERİNİ, NEREYE, DÜŞÜRDÜ?"
+  },
+  {
+    "words": ["Ali", "arkadaşına", "doğum", "günü", "hazırladı"],
+    "correct": "Ali arkadaşına doğum günü hazırladı",
+    "level": 3,
+    "hint": "KİM, KİME, NE, NE, HAZIRLADI?"
+  },
+  {
+    "words": ["Kedimiz", "bahçede", "kuşu", "uzun", "izledi"],
+    "correct": "Kedimiz bahçede kuşu uzun izledi",
+    "level": 3,
+    "hint": "KİM, NEREDE, NEYİ, NE KADAR, İZLEDİ?"
+  },
+  {
+    "words": ["Çocuk", "elindeki", "topu", "arkadaşına", "attı"],
+    "correct": "Çocuk elindeki topu arkadaşına attı",
+    "level": 3,
+    "hint": "KİM, NERESİNDEKİ, NEYİ, KİME, ATTI?"
+  },
+  {
+    "words": ["Tren", "istasyona", "tam", "zamanında", "vardı"],
+    "correct": "Tren istasyona tam zamanında vardı",
+    "level": 3,
+    "hint": "NE, NEREYE, NASIL, NASIL, VARDI?"
+  },
+  {
+    "words": ["Kuşlar", "gökyüzünde", "özgürce", "kanat", "çırpıyor"],
+    "correct": "Kuşlar gökyüzünde özgürce kanat çırpıyor",
+    "level": 3,
+    "hint": "KİMLER, NEREDE, NASIL, NE, ÇIRPIYOR?"
+  },
+  {
+    "words": ["Bülbül", "dalda", "güzel", "şarkısını", "söylüyor"],
+    "correct": "Bülbül dalda güzel şarkısını söylüyor",
+    "level": 3,
+    "hint": "KİM, NEREDE, NASIL, NEYİ, SÖYLÜYOR?"
+  },
+  {
+    "words": ["Arılar", "çiçeklerden", "bal", "özünü", "topluyor"],
+    "correct": "Arılar çiçeklerden bal özünü topluyor",
+    "level": 3,
+    "hint": "KİMLER, NERELERDEN, NE, NEYİ, TOPLUYOR?"
+  },
+  {
+    "words": ["Dalgalar", "kumsala", "usulca", "vurup", "çekiliyor"],
+    "correct": "Dalgalar kumsala usulca vurup çekiliyor",
+    "level": 3,
+    "hint": "NELER, NEREYE, NASIL, NE YAPIP, ÇEKİLİYOR?"
+  },
+  {
+    "words": ["Çamaşırlar", "rüzgârda", "hızlıca", "kurumaya", "başladı"],
+    "correct": "Çamaşırlar rüzgârda hızlıca kurumaya başladı",
+    "level": 3,
+    "hint": "NELER, NEREDE, NASIL, NEYE, BAŞLADI?"
+  },
+  {
+    "words": ["Uçak", "bulutların", "arasından", "yavaşça", "geçti"],
+    "correct": "Uçak bulutların arasından yavaşça geçti",
+    "level": 3,
+    "hint": "NE, NELERİN, NERESINDEN, NASIL, GEÇTİ?"
+  },
+  {
+    "words": ["Fotoğrafçı", "kuşun", "güzel", "fotoğrafını", "çekti"],
+    "correct": "Fotoğrafçı kuşun güzel fotoğrafını çekti",
+    "level": 3,
+    "hint": "KİM, NEYİN, NASIL, NEYİNİ, ÇEKTİ?"
+  },
+  {
+    "words": ["Sincap", "ağaçtan", "cevizleri", "hızlıca", "topladı"],
+    "correct": "Sincap ağaçtan cevizleri hızlıca topladı",
+    "level": 3,
+    "hint": "KİM, NEREDEN, NELERİ, NASIL, TOPLADI?"
+  },
+  {
+    "words": ["Ateş", "yavaşça", "yanarak", "etrafı", "ısıttı"],
+    "correct": "Ateş yavaşça yanarak etrafı ısıttı",
+    "level": 3,
+    "hint": "NE, NASIL, NE YAPARAK, NEREYİ, ISITTI?"
+  },
+  {
+    "words": ["Peri", "masalları", "çocukları", "her", "eğlendiriyor"],
+    "correct": "Peri masalları çocukları her eğlendiriyor",
+    "level": 3,
+    "hint": "NE, MASALLARI, KİMLERİ, HANGİ, EĞLENDİRİYOR?"
+  },
+  {
+    "words": ["Bakkal", "tüm", "ürünleri", "raflara", "dizdi"],
+    "correct": "Bakkal tüm ürünleri raflara dizdi",
+    "level": 3,
+    "hint": "KİM, NASIL, NELERİ, NERELERE, DİZDİ?"
+  }
+]
