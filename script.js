@@ -26,6 +26,9 @@ const wrongSound = new Audio('sound/wrong.mp3');
 backgroundMusic.loop = true;
 backgroundMusic.volume = 0.5;
 
+// Audio state
+let audioInitialized = false;
+
 // Game Variables
 let sentences = [];
 let selectedDifficulty = 1;
@@ -37,6 +40,8 @@ let currentLevelSentences = [];
 
 // Initialize audio
 function initializeAudio() {
+    if (audioInitialized) return;
+    
     // Load all audio files
     backgroundMusic.load();
     correctSound.load();
@@ -46,6 +51,8 @@ function initializeAudio() {
     backgroundMusic.play().catch(error => {
         console.error('Error playing background music:', error);
     });
+    
+    audioInitialized = true;
 }
 
 // Fetch sentences from JSON file
@@ -66,13 +73,22 @@ async function fetchSentences() {
 window.addEventListener('DOMContentLoaded', () => {
     fetchSentences();
     initializeLevelSelection();
-    initializeAudio();
+    
+    // Add click event listener to the document to initialize audio on first user interaction
+    document.addEventListener('click', function initAudioOnFirstClick() {
+        initializeAudio();
+        // Remove the event listener after first click
+        document.removeEventListener('click', initAudioOnFirstClick);
+    }, { once: true });
 });
 
 // Level Selection Handlers
 function initializeLevelSelection() {
     levelCards.forEach(card => {
         card.addEventListener('click', () => {
+            // Ensure audio is initialized on level selection
+            initializeAudio();
+            
             selectedDifficulty = parseInt(card.dataset.level);
             startGame(selectedDifficulty);
         });
